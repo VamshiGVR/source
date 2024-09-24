@@ -1,0 +1,10 @@
+name: CICD TEST
+
+on: push
+jobs: 
+
+first-job:
+    runs-on: ubuntu-lastest
+      steps:
+        - name: Checkout actions
+          uses: actions/checkout@v4
