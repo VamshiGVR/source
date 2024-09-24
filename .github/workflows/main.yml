@@ -1,7 +1,7 @@
 ###############INTEGRATION##############
 
 # name of the pipeline
-name: CICD TEST
+name: Continuous Integration Workflow
 
 #Event is triggered when push || pull_request of branch main
 on: 
